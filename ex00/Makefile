@@ -2,7 +2,10 @@ CC = c++
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
 
-SRCS = main.cpp Animal.cpp
+SRCDIR = src/
+
+SRCS = $(SRCDIR)main.cpp $(SRCDIR)Animal.cpp $(SRCDIR)Dog.cpp $(SRCDIR)Cat.cpp\
+		$(SRCDIR)WrongAnimal.cpp $(SRCDIR)WrongCat.cpp \
 
 BIN_DIR = bin
 
