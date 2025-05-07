@@ -1,15 +1,15 @@
 CC = c++
 
-CFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -g3 -Iincludes
 
-SRCDIR = src/
+SRCDIR = srcs/
 
 SRCS = $(SRCDIR)main.cpp $(SRCDIR)Animal.cpp $(SRCDIR)Dog.cpp $(SRCDIR)Cat.cpp\
 		$(SRCDIR)WrongAnimal.cpp $(SRCDIR)WrongCat.cpp \
 
 BIN_DIR = bin
 
-OBJS = $(SRCS:%.cpp=$(BIN_DIR)/%.o)
+OBJS = $(SRCS:$(SRCDIR)%.cpp=$(BIN_DIR)/%.o)
 
 NAME = Animal
 
@@ -18,7 +18,7 @@ all: $(NAME)
 $(BIN_DIR):
 	mkdir -p $(BIN_DIR)
 
-$(BIN_DIR)/%.o: %.cpp | $(BIN_DIR)
+$(BIN_DIR)/%.o: $(SRCDIR)%.cpp | $(BIN_DIR)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJS)
