@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:45:16 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 16:55:04 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 16:58:45 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ void	Dog::makeSound() const
 	std::cout << this->getType() << ": Bark Bark!" << std::endl;
 }
 
-void	Dog::testBrain() const
+void	Dog::testDogBrain() const
 {
 	std::cout << std::endl << "[Dog's brain is being tested]" << std::endl;
 	for (int i = 0; i < 100; i++)

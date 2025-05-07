@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:50:57 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 15:37:52 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 16:59:00 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,5 @@ class Cat : public Animal
 		Cat	&operator=(const Cat &src);
 
 		void	makeSound() const;
+		void	testCatBrain() const;
 };

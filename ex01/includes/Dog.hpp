@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:43:58 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 16:48:29 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 17:01:18 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,5 @@ class Dog : public Animal
 		Dog	&operator=(const Dog &src);
 
 		void	makeSound() const;
-		void	testBrain() const;
+		void	testDogBrain() const;
 };

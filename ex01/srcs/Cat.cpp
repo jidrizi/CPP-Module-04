@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:51:10 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 16:57:20 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 17:02:57 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,10 +44,12 @@ void	Cat::makeSound() const
 	std::cout << this->getType() << ": Meow Meow!" << std::endl;
 }
 
-void	Cat::testBrain() const
+void	Cat::testCatBrain() const
 {
-	std::cout << std::endl << "[Dog's brain is being tested]" << std::endl;
-	for (int i = 0; i < 100; i++)
+	std::cout << std::endl << "[Cat's brain is being tested]" << std::endl;
+	for (int i = 0; i < 50; i++)
 		this->catBrain->setIdea(i, "Must chase Jerry immediately");
+	for (int y = 50; y < 100; y++)
+		this->catBrain->setIdea(y, "I got hit with my own hammer! I must scream now!");
 	this->catBrain->printIdeas();
 }

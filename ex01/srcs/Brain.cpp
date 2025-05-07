@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 15:33:31 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 16:49:59 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 17:03:58 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,9 +49,9 @@ void	Brain::setIdea(int index, const std::string &idea)
 
 void	Brain::printIdeas() const
 {
-	for (int i = 0; i < 100; i++)
+	for (int i = 1; i <= 100; i++)
 	{
-		if (!this->ideas[i].empty())
-			std::cout << "Idea " << i << ": " << this->ideas[i] << std::endl;
+		if (!this->ideas[i - 1].empty())
+			std::cout << "Idea " << i << ": " << this->ideas[i - 1] << std::endl;
 	}
 }
