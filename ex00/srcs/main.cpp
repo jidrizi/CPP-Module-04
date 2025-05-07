@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:20:50 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 19:11:15 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 19:28:48 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int main()
 	std::cout << std::endl << "[Now testing WrongAnimal and WrongCat]" 
 		<< std::endl << std::endl;
 	const WrongAnimal*	wa = new WrongAnimal();
-	const WrongAnimal*	wc = new WrongCat();
+	const WrongCat*	wc = new WrongCat();
 	// const WrongAnimal*	wc = new WrongCat();
 	// if you declare wc as WrongAnimal*, the eval sheet said it shouldn't print 
 	// the wrong cat sound but the wrong animal sound
