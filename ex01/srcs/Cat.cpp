@@ -6,15 +6,16 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:51:10 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 14:51:34 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 15:40:33 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Cat.hpp"
+#include "ex01/includes/Cat.hpp"
 
 Cat::Cat() : Animal()
 {
 	this->type = "Cat";
+	this->catBrain = new Brain();
 	std::cout << "Cat default constructor called" << std::endl;
 }
 

@@ -6,11 +6,11 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 15:33:31 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 15:35:39 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 15:41:44 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Brain.hpp"
+#include "ex01/includes/Brain.hpp"
 
 Brain::Brain()
 {

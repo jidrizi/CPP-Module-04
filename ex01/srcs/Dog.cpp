@@ -6,15 +6,16 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:45:16 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 14:49:43 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 15:40:43 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Dog.hpp"
+#include "ex01/includes/Dog.hpp"
 
 Dog::Dog() : Animal()
 {
 	this->type = "Dog";
+	this->dogBrain = new Brain();
 	std::cout << "Dog default constructor called" << std::endl;
 }
 

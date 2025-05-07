@@ -6,11 +6,11 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:22:00 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 15:17:08 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 15:41:25 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Animal.hpp"
+#include "ex01/includes/Animal.hpp"
 
 Animal::Animal() : type("Default")
 {

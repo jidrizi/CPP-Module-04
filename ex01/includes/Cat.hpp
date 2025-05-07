@@ -6,11 +6,12 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:50:57 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 15:36:23 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 15:37:52 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Animal.hpp"
+#include "Brain.hpp"
 
 class Cat : public Animal
 {

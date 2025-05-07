@@ -6,11 +6,11 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 15:06:51 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 15:08:33 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 15:42:26 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "WrongCat.hpp"
+#include "ex01/includes/WrongCat.hpp"
 
 WrongCat::WrongCat() : WrongAnimal()
 {
