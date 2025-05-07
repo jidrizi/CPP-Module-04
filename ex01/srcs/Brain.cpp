@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 15:33:31 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 17:03:58 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 19:21:59 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,12 @@ Brain::~Brain()
 Brain	&Brain::operator=(const Brain &src)
 {
 	std::cout << "Brain assignment operator called" << std::endl;
-	if (this != &src)
+	if (this == &src)
+		return (*this);
+	for (int i = 0; i < 100; i++)
 	{
-		for (int i = 0; i < 100; i++)
-			this->ideas[i] = src.ideas[i];
+		if (src.ideas[i].length() > 0)
+			this->ideas[i].assign(src.ideas[i]);
 	}
 	return (*this);
 }
