@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:43:58 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 14:46:40 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 15:36:07 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 class Dog : public Animal
 {
+	private:
+		Brain	*dogBrain;
 	public:
 		Dog();
 		Dog(const Dog &src);

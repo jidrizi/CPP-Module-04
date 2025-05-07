@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:50:57 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 14:51:04 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 15:36:23 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 class Cat : public Animal
 {
+	private:
+		Brain	*catBrain;
 	public:
 		Cat();
 		Cat(const Cat &src);
