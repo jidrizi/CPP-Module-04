@@ -6,11 +6,11 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:45:16 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 15:40:43 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 16:55:04 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ex01/includes/Dog.hpp"
+#include "Dog.hpp"
 
 Dog::Dog() : Animal()
 {
@@ -35,10 +35,19 @@ Dog::Dog(const Dog &src)
 
 Dog::~Dog()
 {
+	delete this->dogBrain;
 	std::cout << "Dog destructor called" << std::endl;
 }
 
 void	Dog::makeSound() const
 {
 	std::cout << this->getType() << ": Bark Bark!" << std::endl;
+}
+
+void	Dog::testBrain() const
+{
+	std::cout << std::endl << "[Dog's brain is being tested]" << std::endl;
+	for (int i = 0; i < 100; i++)
+		this->dogBrain->setIdea(i, "Must chase tennis balls immediately");
+	this->dogBrain->printIdeas();
 }

@@ -5,7 +5,7 @@ CFLAGS = -Wall -Wextra -Werror -std=c++98 -g3 -Iincludes
 SRCDIR = srcs/
 
 SRCS = $(SRCDIR)main.cpp $(SRCDIR)Animal.cpp $(SRCDIR)Dog.cpp $(SRCDIR)Cat.cpp\
-		$(SRCDIR)WrongAnimal.cpp $(SRCDIR)WrongCat.cpp \
+		$(SRCDIR)WrongAnimal.cpp $(SRCDIR)WrongCat.cpp $(SRCDIR)Brain.cpp\
 
 BIN_DIR = bin
 

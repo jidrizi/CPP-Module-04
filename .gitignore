@@ -1,6 +1,7 @@
 # Non git template stuff
 bin
 Animal
+Animal2
 
 # Prerequisites
 *.d

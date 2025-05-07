@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 15:32:02 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 15:36:30 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 16:42:19 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,10 @@ class Brain
 		Brain(const Brain &src);
 		~Brain();
 		Brain	&operator=(const Brain &src);
+
+		void		setIdea(int index, const std::string &idea);
+		std::string	getIdea(int index) const;
+		void		printIdeas() const;
 };
 
 #endif

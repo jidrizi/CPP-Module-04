@@ -6,11 +6,11 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 15:06:12 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 15:42:21 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 16:50:18 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ex01/includes/WrongAnimal.hpp"
+#include "WrongAnimal.hpp"
 
 WrongAnimal::WrongAnimal() : type("WrongDefault")
 {
