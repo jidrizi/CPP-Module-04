@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:22:09 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 14:35:37 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 17:17:56 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ class Animal
 {
 	protected:
 		std::string type;
-	public:
 		Animal();
+	public:
 		Animal(const Animal &src);
 		virtual ~Animal();
 		Animal	&operator=(const Animal &src);

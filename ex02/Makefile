@@ -11,7 +11,7 @@ BIN_DIR = bin
 
 OBJS = $(SRCS:$(SRCDIR)%.cpp=$(BIN_DIR)/%.o)
 
-NAME = Animal2
+NAME = Animal3
 
 all: $(NAME)
 
