@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:22:09 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 17:17:56 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 19:06:55 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ class Animal
 		Animal	&operator=(const Animal &src);
 
 		std::string		getType() const;
-		virtual void	makeSound() const;
+		virtual void	makeSound() const = 0;
 };
 
 #endif
