@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 15:05:00 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 15:06:08 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 19:13:15 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,11 @@ class WrongAnimal
 	public:
 		WrongAnimal();
 		WrongAnimal(const WrongAnimal &src);
-		virtual ~WrongAnimal();
+		~WrongAnimal();
 		WrongAnimal	&operator=(const WrongAnimal &src);
 
 		std::string		getType() const;
-		virtual void	makeSound() const;
+		void	makeSound() const;
 };
 
 #endif
