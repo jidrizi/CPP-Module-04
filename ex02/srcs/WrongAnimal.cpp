@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 15:06:12 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 16:50:18 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 17:10:57 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,6 @@ std::string	WrongAnimal::getType() const
 void	WrongAnimal::makeSound() const
 {
 	std::cout << this->getType()
-	<< ": Default wrong animal sound!"
+	<< ": *WrongAnimal also can't make sound*"
 		<< std::endl;
 }

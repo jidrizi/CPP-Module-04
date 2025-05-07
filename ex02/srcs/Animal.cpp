@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:22:00 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 16:49:53 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/05/07 17:09:14 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,6 @@ std::string	Animal::getType() const
 void	Animal::makeSound() const
 {
 	std::cout << this->getType()
-	<< ": Default animal sound!"
+	<< ": *can't make sound*"
 		<< std::endl;
 }
