@@ -6,7 +6,7 @@
 /*   By: jidrizi <jidrizi@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 14:20:50 by jidrizi           #+#    #+#             */
-/*   Updated: 2025/05/07 17:00:52 by jidrizi          ###   ########.fr       */
+/*   Updated: 2025/06/16 13:12:56 by jidrizi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ int	main()
 
 	Dog	x = Dog();
 	Cat	y = Cat();
+	Cat z = y;
 
 	x.testDogBrain();
 	y.testCatBrain();
